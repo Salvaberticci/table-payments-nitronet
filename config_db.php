@@ -5,7 +5,7 @@ $host = '200.59.184.50';
 $port = '5432';
 $dbname = 'broadcast';
 $user = 'postgres';
-$password = '12345';
+$password = 'salva.1919';
 
 $dsn = "pgsql:host=$host;port=$port;dbname=$dbname;user=$user;password=$password";
 
