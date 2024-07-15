@@ -94,6 +94,7 @@ try {
                         <th>Geolocalización</th>
                         <th>Nombre Zona</th>
                         <th>Cobrado</th>
+                        <th>Token</th>
                         <th>Acciones</th>
                     </tr>
                 </thead>
@@ -113,6 +114,7 @@ try {
                             <td><?= htmlspecialchars($payment['geolocalizacion']) ?></td>
                             <td><?= htmlspecialchars($payment['nombre_zona']) ?></td>
                             <td><?= $payment['charged'] ? 'Sí' : 'No' ?></td>
+                            <td><?= htmlspecialchars($payment['token']) ?></td>
                             <td>
                                 <form method="post" onsubmit="return confirm('¿Estás seguro de que quieres eliminar este pago?')">
                                     <input type="hidden" name="delete_id" value="<?= $payment['id'] ?>">

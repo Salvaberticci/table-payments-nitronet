@@ -1,11 +1,21 @@
 <?php
 
+// // Datos de conexión a la base de datos
+// $host = '200.59.184.50';
+// $port = '5432';
+// $dbname = 'broadcast';
+// $user = 'postgres';
+// $password = '12345';
+
 // Datos de conexión a la base de datos
 $host = '200.59.184.50';
 $port = '5432';
 $dbname = 'broadcast';
 $user = 'postgres';
-$password = 'salva.1919';
+$password = '12345';
+
+
+
 
 $dsn = "pgsql:host=$host;port=$port;dbname=$dbname;user=$user;password=$password";
 
