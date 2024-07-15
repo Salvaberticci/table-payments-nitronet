@@ -84,7 +84,6 @@ try {
                         <th>Fecha de Creación</th>
                         <th>Tipo de Ticket</th>
                         <th>Cédula</th>
-                        <th>Monto Mensaje</th>
                         <th>Monto</th>
                         <th>Cambio USD</th>
                         <th>Monto USD</th>
@@ -104,7 +103,6 @@ try {
                             <td><?= htmlspecialchars($payment['created_at']) ?></td>
                             <td><?= htmlspecialchars($payment['ticket_type']) ?></td>
                             <td><?= htmlspecialchars($payment['id_card']) ?></td>
-                            <td><?= htmlspecialchars($payment['amount_message']) ?></td>
                             <td><?= htmlspecialchars($payment['amount']) ?></td>
                             <td><?= htmlspecialchars($payment['usd_exchange']) ?></td>
                             <td><?= htmlspecialchars($payment['usd_amount']) ?></td>
