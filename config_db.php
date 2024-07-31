@@ -1,18 +1,12 @@
 <?php
 
-// // Datos de conexión a la base de datos
-// $host = '200.59.184.50';
-// $port = '5432';
-// $dbname = 'broadcast';
-// $user = 'postgres';
-// $password = '12345';
 
 // Datos de conexión a la base de datos
-$host = '200.59.184.50';
-$port = '5432';
-$dbname = 'broadcast';
-$user = 'postgres';
-$password = '12345';
+$host = '';
+$port = '';
+$dbname = '';
+$user = '';
+$password = '';
 
 
 
