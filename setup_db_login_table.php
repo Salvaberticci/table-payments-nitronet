@@ -19,11 +19,11 @@
             <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["create_tables"])) {
                 // Datos de conexión a la base de datos
-                $host = '200.59.184.50';
-                $port = '5432';
-                $dbname = 'broadcast';
-                $user = 'postgres';
-                $password = '12345';
+                $host = '';
+                $port = '';
+                $dbname = '';
+                $user = '';
+                $password = '';
 
                 try {
                     // Conexión a la base de datos
